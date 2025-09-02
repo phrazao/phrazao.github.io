@@ -5,25 +5,18 @@
 # Default language
 en:
   languageCode: en
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
-
-# Multilingual
-languages:
-  en:
-    languageCode: en
-    contentDir: content/en
-    weight: 1
-    title: impossibilis
-    params:
-      description: Producer and publisher of tabletop games.
-  pt:
-    languageCode: pt
-    contentDir: content/pt
-    weight: 2
-    title: impossibilis
-    params:
-      description: Produtora e editora de jogos de cartas e de tabuleiro.
+  weight: 1
+  title: impossibilis
+  params:
+    description: Producer and publisher of tabletop games.
+pt:
+  languageCode: pt
+  contentDir: content/pt
+  weight: 2
+  title: impossibilis
+  params:
+    description: Produtora e editora de jogos de cartas e de tabuleiro.
 # Uncomment the lines below to configure your website in a second language.
 #zh:
 #  languageCode: zh-Hans
