@@ -6,7 +6,9 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: sky
+
+enable_browser_language_detection: true
 
 # SEO
 marketing:
@@ -31,12 +33,14 @@ header:
   navbar:
     enable: true
     blox: "navbar"
+    align: "center"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    logo:
-      text: "Your Name"
-
+    logo: 
+      filename: logo.svg
+      text:
+  highlight_active_link: true
 # Site footer
 footer:
   copyright:
