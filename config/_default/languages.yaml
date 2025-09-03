@@ -9,7 +9,7 @@ en:
   menu:
     main:
       - name: About
-        pageRef: about
+        pageRef: /about
         weight: 10
       - name: Games
         pageRef: /games

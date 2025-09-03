@@ -22,6 +22,7 @@ languages:
   en:
     languageCode: en
     contentDir: content/en
+    #contentDir: en
     weight: 1
     title: impossibilis
     params:
@@ -29,6 +30,7 @@ languages:
   pt:
     languageCode: pt
     contentDir: content/pt
+    #contentDir: pt
     weight: 2
     title: impossibilis
     params:
