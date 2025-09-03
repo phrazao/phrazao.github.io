@@ -17,6 +17,23 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: true
 removePathAccents: true
 
+# Multilingual
+languages:
+  en:
+    languageCode: en
+    contentDir: content/en
+    weight: 1
+    title: impossibilis
+    params:
+      description: Producer and publisher of tabletop games.
+  pt:
+    languageCode: pt
+    contentDir: content/pt
+    weight: 2
+    title: impossibilis
+    params:
+      description: Produtora e editora de jogos de cartas e de tabuleiro.
+
 ############################
 ## ADVANCED
 ############################

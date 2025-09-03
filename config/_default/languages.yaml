@@ -1,31 +1,37 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+  #     desired widget in your `content/home/` folder.
+  #   The weight parameter defines the order that the links will appear in.
 
-# Default language
+# config/_default/languages.yaml
+
 en:
-  languageCode: en
-  contentDir: content/en
-  weight: 1
-  title: impossibilis
-  params:
-    description: Producer and publisher of tabletop games.
+  menu:
+    main:
+      - name: About
+        pageRef: about
+        weight: 10
+      - name: Games
+        pageRef: /games
+        weight: 20
+      - name: News
+        pageRef: /news
+        weight: 30
+      - name: Contact
+        pageRef: /contact
+        weight: 40
 pt:
-  languageCode: pt
-  contentDir: content/pt
-  weight: 2
-  title: impossibilis
-  params:
-    description: Produtora e editora de jogos de cartas e de tabuleiro.
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  menu:
+    main:
+      - name: Acerca
+        pageRef: /about
+        weight: 10
+      - name: Jogos
+        pageRef: /games
+        weight: 20
+      - name: Novidades
+        pageRef: /news
+        weight: 30
+      - name: Contacto
+        pageRef: /contact
+        weight: 40
