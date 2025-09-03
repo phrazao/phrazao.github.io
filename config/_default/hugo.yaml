@@ -6,7 +6,7 @@
 # Website name
 title: impossibilis
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'http://192.168.1.189:1313/ph/'
 
 ############################
 ## LANGUAGE
@@ -29,6 +29,7 @@ languages:
       description: Producer and publisher of tabletop games.
   pt:
     languageCode: pt
+    #contentDir: content
     contentDir: content/pt
     #contentDir: pt
     weight: 2
@@ -57,11 +58,11 @@ outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
-  resampleFilter: lanczos
+  resampleFilter: Lanczos
   quality: 90
-  anchor: smart
+  anchor: Smart
   hint: picture
-timeout: 600000
+timeout: '60s'
 taxonomies:
   author: authors
   tag: tags
