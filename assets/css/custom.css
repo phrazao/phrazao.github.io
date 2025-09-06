@@ -3,3 +3,11 @@
   height: 50px !important;
   width: auto !important;
 }
+
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+code, pre {
+    font-family: 'Basically A Mono Style 1', monospace;
+}
