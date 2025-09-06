@@ -6,7 +6,8 @@
 # Website name
 title: impossibilis
 # Website URL
-baseURL: 'http://192.168.1.189:1313/ph/'
+#baseURL: 'http://192.168.1.189:1313/ph/'
+baseURL: 'https://phrazao.github.io/'
 
 ############################
 ## LANGUAGE
@@ -26,7 +27,7 @@ languages:
     weight: 1
     title: impossibilis
     params:
-      description: Producer and publisher of tabletop games.
+      description: Producer and publisher of cards and tabletop games.
   pt:
     languageCode: pt
     #contentDir: content
