@@ -42,8 +42,10 @@
     /* font-feature-settings: "ss01"; */
 }
 
-@theme {
-  --font-display: "Lexend", sans-serif;
-  --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11"; 
-  --font-display--font-variation-settings: "opsz" 32; 
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+code, pre {
+    font-family: 'Basically A Mono Style 1', monospace;
 }

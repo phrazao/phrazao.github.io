@@ -14,6 +14,7 @@ baseURL: 'https://phrazao.github.io/'
 ############################
 
 defaultContentLanguage: en
+enable_browser_language_detection: true
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: true
 removePathAccents: true
